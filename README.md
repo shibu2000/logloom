@@ -1,50 +1,146 @@
-# Welcome to your Expo app 👋
+<h1 align="center">🧵 LogLoom</h1>
+<h3 align="center">A calm, offline-first app for connected thinking</h3>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6B85A6&center=true&vCenter=true&width=650&lines=Capture+Moments+%7C+Preserve+Context;Remember+Not+Just+What+But+Why;Offline-First+%7C+Calm+UX+%7C+Thoughtful+Design" />
+</p>
 
-## Get started
+---
 
-1. Install dependencies
+## 🧠 About LogLoom
 
-   ```bash
-   npm install
-   ```
+**LogLoom** is a calm, offline-first mobile application designed to help you capture moments, decisions, and reflections — and weave them into connected thinking over time.
 
-2. Start the app
+Unlike traditional note-taking apps, LogLoom focuses on **context**:
+not just _what_ happened, but _why_, _what you did_, and _what you learned_.
 
-   ```bash
-   npx expo start
-   ```
+It’s a thinking companion — not a task manager, not a noisy notes app.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Why LogLoom?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Most tools store information.  
+LogLoom preserves **reasoning**.
 
-## Get a fresh project
+Built for:
 
-When you're ready, run:
+- Reflecting on decisions
+- Tracking recurring problems
+- Revisiting past context
+- Learning from outcomes over time
 
-```bash
-npm run reset-project
-```
+Designed to stay calm, focused, and distraction-free.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🧵 Core Concept
 
-To learn more about developing your project with Expo, look at the following resources:
+Each entry in LogLoom is called a **Context**, structured as:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Situation** — What triggered this moment?
+- **Problem** — What was the core issue?
+- **Action** — What did you do or plan to do?
+- **Outcome** — What happened or is expected?
+- **Reflection** — What did you learn?
 
-## Join the community
+Over time, these contexts form a **connected timeline** you can revisit anytime.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📱 Features
+
+- 🕰️ Timeline-based context history
+- ✍️ Single-flow (waterfall) context capture
+- 📌 Pinned important contexts
+- ⏯️ Resume unfinished entries
+- 🔍 Search across text and tags
+- 📊 Insights & recurring patterns
+- 🏷️ Lightweight tagging
+- 📴 Fully offline-first
+- 🌗 Light & dark mode
+- 🧘 Calm, premium UI
+
+---
+
+## 🧭 App Structure
+
+- **Timeline** — Review contexts chronologically
+- **Capture** — Create a new context in a single connected flow
+- **Context Detail** — Read-only reflective view
+- **Search** — Find contexts by keywords or tags
+- **Insights** — Discover patterns and revisits
+- **Settings** — Theme, export, local data management
+
+---
+
+## 🎨 Design Philosophy
+
+- Content over UI chrome
+- Minimal colors, editorial typography
+- No urgency, no noise
+- Designed for long reading & reflection
+
+LogLoom is intentionally **not** a productivity tracker or social app.
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,expo,ts,sqlite,tailwind,git" />
+</p>
+
+- **React Native (Expo)**
+- **TypeScript**
+- **SQLite** (offline-first storage)
+- **NativeWind**
+- Cross-platform (iOS & Android)
+
+---
+
+## 📴 Offline-First by Design
+
+- All data stored locally using SQLite
+- No login or account required
+- Works fully without internet
+- Fast, private, and reliable
+
+Future sync (if added) will be **optional**.
+
+---
+
+## 🚧 Project Status
+
+🚀 **Actively in development**
+
+LogLoom is being built as a production-quality app with a strong focus on UX, performance, and long-term maintainability.
+
+---
+
+## 🔮 Future Roadmap
+
+- Smarter insights & pattern detection
+- Optional cross-device sync
+- Advanced export formats
+- Deeper reflection tools
+
+---
+
+## 👤 Author
+
+Built by **Shibu Dhara**  
+Full-Stack Developer focused on thoughtful UX and clean architecture.
+
+---
+
+## 📄 License
+
+This project is currently for personal and portfolio use.  
+License details will be added later.
+
+---
+
+<p align="center">
+  ⭐ Thanks for checking out LogLoom!
+</p>
