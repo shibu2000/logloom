@@ -2,10 +2,11 @@ import SafeScreen from "@/components/SafeScreen";
 import PinnedBox from "@/components/timeline/PinnedBox";
 import TimelineFlow from "@/components/timeline/TimelineFlow";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
-import React from "react";
+import React, { useState } from "react";
 import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 
 const Timeline = () => {
+  const [pinnedViewLayoutWidth, setPinnedViewLayoutWidth] = useState(0);
   return (
     <SafeScreen>
       <View className="p-2">
@@ -33,7 +34,7 @@ const Timeline = () => {
           </View>
         </View>
         {/* ====Pinned Timeline==== */}
-        <View className="rounded-xl bg-[#E1D9C7] px-2 py-3">
+        <View className="rounded-xl bg-[#E1D9C7] px-4 py-3">
           <View className="flex-row items-center gap-1 mb-2">
             <MaterialCommunityIcons name="pin" size={16} color="#A19B93" />
             <Text>Pinned</Text>
@@ -41,10 +42,12 @@ const Timeline = () => {
           <ScrollView
             horizontal
             showsHorizontalScrollIndicator={false}
-            className="px-2"
+            onLayout={(e) => {
+              setPinnedViewLayoutWidth(e.nativeEvent.layout.width);
+            }}
           >
             {Array.from({ length: 10 }).map((_, index) => (
-              <PinnedBox key={index} />
+              <PinnedBox key={index} width={pinnedViewLayoutWidth / 2.25} />
             ))}
           </ScrollView>
         </View>
